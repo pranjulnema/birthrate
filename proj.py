@@ -7,7 +7,7 @@ import seaborn as sns
 
 
 nRowsRead = 1000 # specify 'None' if want to read whole file
-df1 = pd.read_csv('C:\\Users\\nemap\\Downloads\\birthrate\\nchs-birth-rates-for-females-by-age-group-united-states.csv', delimiter=',', nrows = nRowsRead)
+df1 = pd.read_csv('nchs-birth-rates-for-females-by-age-group-united-states.csv', delimiter=',', nrows = nRowsRead)
 df1.dataframeName = 'nchs-birth-rates-for-females-by-age-group-united-states.csv'
 nRow, nCol = df1.shape
 print(f'There are {nRow} rows and {nCol} columns')
