@@ -6,7 +6,7 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import seaborn as sns
 
 
-nRowsRead = 1000 # specify 'None' if want to read whole file
+nRowsRead = 1000 
 df1 = pd.read_csv('nchs-birth-rates-for-females-by-age-group-united-states.csv', delimiter=',', nrows = nRowsRead)
 df1.dataframeName = 'nchs-birth-rates-for-females-by-age-group-united-states.csv'
 nRow, nCol = df1.shape
